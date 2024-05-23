@@ -1,6 +1,6 @@
 [![Stars](https://img.shields.io/github/stars/Lzcstan/STCase?logo=GitHub&color=yellow)](https://github.com/Lzcstan/STCase) [![PyPI](https://img.shields.io/pypi/v/STACCI.svg)](https://pypi.org/project/STACCI)
-# STACCI for STCase (**S**patial **T**ranscriptomics cell-cell **C**ommunication **a**nd **s**ubtype **e**xploration)
-STACCI (**S**patial **T**ranscriptomics **A**nalysis for **C**ell-**C**ell **I**nteractions)
+# STCase (**S**patial **T**ranscriptomics cell-cell **C**ommunication **a**nd **s**ubtype **e**xploration)
+STCase is a tool for accurately inferring CCC events at the niche level. Unlike previous methods, STCase identifies CCC events at the single-cell/spot level and performs niche-based subclustering to uncover underestimated niche-specific CCC events. We evaluated the performance of STCase from various perspectives and found that it exhibits good robustness, accuracy and sensitivity.
 
 ## Installation Instructions
 
