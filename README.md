@@ -84,7 +84,7 @@ The files necessary to run pySCENIC can be downloaded from [Google Drive ](https
 
 ## Usage Instructions and Example Dataset
 
-**This section provides instructions and an example dataset for training and using GNN. For CCCI scores calculation and visulization, please refer to the tutorial above.**
+**This section provides instructions and an example dataset for training and using GNN. For CCC scores calculation and visulization, please refer to the tutorial above.**
 
 After creating a new environment according to the installation instructions and installing the corresponding dependencies, place the .h5ad file of the dataset in the specified file structure, specifically, the desired file structure of the dataset is as follows:
 
@@ -129,3 +129,26 @@ And the corresponding command is:
 python test.py --root ./tests/ --ds-dir datasets/ --ds-name NC_OSCC_s1 --h5-name s1_nohvg_stringent --target-types SCC --gpu 1 --use-gpu --n-nei 6 --n-clusters 3 --alpha 0.25 --label-col-name cell_type --region-col-name cluster_annotations
 ```
 (~1 hour with GPU and ~20 hours without GPU)
+
+### Output files
+```bash
+SCC_alpha=0.25_reso=None_cut=FULL_hvg=3000_nei=6
+├── fixed_n=3_SCC_types.txt
+├── fixed_n=3_spatial_SCC.png
+├── leiden.txt
+├── lr_weight.csv
+├── lr_weight_dict.pkl
+├── mclust_fixed_n=3_SCC_types.txt
+├── mclust_fixed_n=3_spatial_SCC.png
+└── mclust.txt
+```
+## fixed_n=3_SCC_types.txt ##
+A file that stores the clustering results via the leiden method.
+## fixed_n=3_spatial_SCC.png ##
+Spatial visualization of the clustering results by leiden method.
+## lr_weight.csv & lr_weight_dict.pkl ##
+Those file stores the weight of each LRP in the GNN.
+## mclust_fixed_n=3_SCC_types.txt ##
+A file that stores the clustering results via the mclust method.
+## mclust_fixed_n=3_spatial_SCC.png ##
+Spatial visualization of the clustering results by mclust method.
