@@ -142,13 +142,13 @@ SCC_alpha=0.25_reso=None_cut=FULL_hvg=3000_nei=6
 ├── mclust_fixed_n=3_spatial_SCC.png
 └── mclust.txt
 ```
-## fixed_n=3_SCC_types.txt ##
+**fixed_n=3_SCC_types.txt**
 A file that stores the clustering results via the leiden method.
-## fixed_n=3_spatial_SCC.png ##
+**fixed_n=3_spatial_SCC.png**
 Spatial visualization of the clustering results by leiden method.
-## lr_weight.csv & lr_weight_dict.pkl ##
+**lr_weight.csv & lr_weight_dict.pkl**
 Those file stores the weight of each LRP in the GNN.
-## mclust_fixed_n=3_SCC_types.txt ##
+**mclust_fixed_n=3_SCC_types.txt**
 A file that stores the clustering results via the mclust method.
-## mclust_fixed_n=3_spatial_SCC.png ##
+**mclust_fixed_n=3_spatial_SCC.png**
 Spatial visualization of the clustering results by mclust method.
