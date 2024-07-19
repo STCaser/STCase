@@ -17,7 +17,7 @@ parser.add_argument('--reso', type=float, default=None)
 parser.add_argument('--init', default='one', type=str, help="init weight", choices=['one', 'std', 're_sum', 'sum'])
 parser.add_argument('--gpu', type=int, default=0)
 parser.add_argument('--use-gpu', help="use gpu acceleration", action='store_true')
-parser.add_argument('--wo-anno', help="without gt annotation for sub-clustering", action='store_true')
+parser.add_argument('--wo-anno', help="without groundtruth annotation for sub-clustering", action='store_true')
 parser.add_argument('--region-col-name', default="NULL", type=str, metavar='DATA', help='Sub-clustering region ground-truth label column name')
 test_args = parser.parse_args()
 
