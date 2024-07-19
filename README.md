@@ -151,3 +151,7 @@ SCC_alpha=0.25_reso=None_cut=FULL_hvg=3000_nei=6
 **mclust_fixed_n=3_SCC_types.txt:** A file that stores the clustering results via the mclust method.
 
 **mclust_fixed_n=3_spatial_SCC.png:** Spatial visualization of the clustering results by mclust method.
+
+**leiden.txt:** A file of the results of the comparison between the groundtruth and the STCase results (leiden method) when setting the region-col-name parameter. If the wo-anno parameter is set, there is no result output.
+
+**mclust.txt:** A file of the results of the comparison between the groundtruth and the STCase results (mclust method) when setting the region-col-name parameter. If the wo-anno parameter is set, there is no result output.
