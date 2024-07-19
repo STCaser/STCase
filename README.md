@@ -8,7 +8,7 @@ A consice read-the-doc tutorial can be found in [this website](https://stcase.re
 
 An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3).
 
-The files necessary to run pySCENIC can be downloaded from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3).
+The files necessary to run pySCENIC can be downloaded from [Google Drive ](https://drive.google.com/drive/folders/1aiExvHhKfuin4uf41o01ALZjlPqyzkJn?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1EZ2jo9PGtZfVm0t-BqMXeQ) (Password: fzkx).
 
 
 ## Installation Instructions
