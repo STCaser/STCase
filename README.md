@@ -6,7 +6,7 @@ STCase is a tool for accurately inferring CCC events at the niche level. Unlike 
 
 A consice read-the-doc tutorial can be found in [this website](https://stcase.readthedocs.io/en/latest/) (in progress). Please refer to this tutorial for the calculation of CCC scores(~3h for example dataset) and visualization.
 
-An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3).
+An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3).
 
 The files necessary to run pySCENIC can be downloaded from [Google Drive ](https://drive.google.com/drive/folders/1aiExvHhKfuin4uf41o01ALZjlPqyzkJn?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1EZ2jo9PGtZfVm0t-BqMXeQ) (Password: fzkx).
 
