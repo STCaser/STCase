@@ -8,7 +8,7 @@ A consice read-the-doc tutorial can be found in [this website](https://stcase.re
 
 An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3).
 
-The files necessary to run pySCENIC can be downloaded from [Google Drive ](https://drive.google.com/drive/folders/1aiExvHhKfuin4uf41o01ALZjlPqyzkJn?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1EZ2jo9PGtZfVm0t-BqMXeQ) (Password: fzkx).
+The files necessary to run pySCENIC can be downloaded from [Google Drive ](https://drive.google.com/drive/folders/1aiExvHhKfuin4uf41o01ALZjlPqyzkJn?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1EZ2jo9PGtZfVm0t-BqMXeQ) (Password: fzkx).
 
 
 ## Installation Instructions
@@ -48,7 +48,7 @@ The files necessary to run pySCENIC can be downloaded from [Google Drive ](https
 
       Google Drive: [GPU wheels](https://drive.google.com/file/d/1H3P4IWcYzgrfINCZCoX_WU_E-8CTSFOy/view?usp=sharing) or [CPU wheels](https://drive.google.com/file/d/1AMTn3GmOnO-Zvo6YfkgiZRS0FZmIzVcq/view?usp=sharing) 
       
-      **Baidu Netdisk for CN user: [GPU wheels](https://pan.baidu.com/s/1FqA9KFENfk4RSOMLmblyiw) (Password: 8rvh) or [CPU wheels](https://pan.baidu.com/s/1EvAMBq8DYEvSL-JLqUQbkg) (Password: krt6)*
+      **Baidu Netdisk: [GPU wheels](https://pan.baidu.com/s/1FqA9KFENfk4RSOMLmblyiw) (Password: 8rvh) or [CPU wheels](https://pan.baidu.com/s/1EvAMBq8DYEvSL-JLqUQbkg) (Password: krt6)*
 
       ```bash
       pip install torch_spline_conv-1.2.1+pt112cu113-cp310-cp310-linux_x86_64.whl
@@ -103,7 +103,7 @@ After setting up the file structure, execute the following command:
 python test.py --root {root} --ds-dir {dataset_path} --ds-name {dataset} --h5-name {h5_name} --target-types {target_type_list} --gpu {gpu_id} [--use-gpu] --n-nei {#neighborhood} --n-clusters {#sub-regions} [--alpha {alpha}] --label-col-name {label_column_name} --region-col-name {region_column_name}
 ```
 
-An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [the link for CN user](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3). After completing the download, place the dataset file in the appropriate location. The complete file structure of the repository including the example dataset should be as follows:
+An example dataset can be download from [Google Drive ](https://drive.google.com/file/d/1TQohsxIFonJxQkroECHR0EqwPTGX2o6S/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tdiCZg1YoHvQj5iOwtNEHA) (Password: 25d3). After completing the download, place the dataset file in the appropriate location. The complete file structure of the repository including the example dataset should be as follows:
 ```bash
 STCase/
 ├── README.md
